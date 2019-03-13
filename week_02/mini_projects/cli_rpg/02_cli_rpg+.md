@@ -5,7 +5,7 @@ Take a good look at your enemies 👁
 They seem to have some things in common... But then again, also a set of
 differences (some seem to be more evil than others!)
 
-Employ the concept of [Inheritance](https://codingnomads.atlassian.net/wiki/spaces/PYO/pages/415531064/Inheritance) in order to further build out your RPG game.
+Employ the concept of **Inheritance** in order to further build out your RPG game.
 
 ## Tasks
 - Create at least 3 sub-classes of your `Opponent` class, that has distinct
