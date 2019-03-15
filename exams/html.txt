@@ -1,0 +1,29 @@
+HTML - the basic structure of the www
+=====================================
+
+What are the names of the pieces that make up a basic HTML element?
+    1)
+    2)
+    3)
+    4) (optional)
+
+
+Write an example HTML element below:
+
+
+How many different heading elements are there in HTML and how do you make one?
+
+
+Which HTML element contains all the user-visible content of a webpage?
+
+
+Write a link element that points to the codingnomads.co website.
+
+
+How do you write a for-loop using only HTML?
+
+
+How do you create an unordered list with 4 elements using shorthand-code in PyCharm?
+
+
+BONUS: Write a mini-HTML page structure including everything necessary, a heading, and a paragraph.

@@ -1,0 +1,22 @@
+WEB FUNDAMENTALS
+================
+
+What is the equivalent of a URL on your local computer?
+
+
+What 3 main parts is a URL made of?
+	1) protocol
+	2) domain name
+	3) path
+
+
+What do we see if we type file://localhost/ into the Chrome search bar?
+
+
+Describe the basic idea of Client-Server architecture
+
+
+What is the name of the python package we used to retrieve HTML resources?
+
+
+What is the name of the function in that package that we used to download HTML?

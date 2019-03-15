@@ -260,7 +260,7 @@ a 'try'? Bonus: How does 'else' fit into this picture?
     except Exception as exc:
         print(exc)
     except ZeroDivisionError as zde:
-        print zde
+        print(zde)
 
 dunno
 - Write a function that takes in the name of a file, reads the contents

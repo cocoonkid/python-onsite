@@ -1,0 +1,41 @@
+HTML CLASSES, CSS, BOOTSTRAP
+============================
+
+What is a HTML class?
+
+
+Create a section element that has one class called content
+
+
+What is the advantage of using HTML classes on your elements?
+
+
+Explain what goes on in the following element:
+<p class="main content">Hello!</p>
+
+
+From your HTML document, create a link to a stylesheet in the same folder
+that is named "style.css"
+
+
+Within which HTML element do you create this connection?
+
+
+What elements does a CSS style rule consist of?
+
+
+How do you apply red text color to:
+	- all <p> elements
+	- every element of the class highlight
+	- all child <p> elements of the class highlight
+
+
+Which two steps are necessary to be able to use Bootstrap in your HTML?
+	1)
+	2)
+
+
+How do you apply Bootstrap styles to your elements?
+
+
+Why would you want to use Bootstrap?
