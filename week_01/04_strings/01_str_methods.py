@@ -15,3 +15,15 @@ For this exercise, demonstrate the following string methods below:
 - find
 
 '''
+
+
+text = "Hello my name is Franz"
+
+text = text.strip("Hello")
+
+text = text.replace("name", "surname")
+
+text_found = text.find("Franz")
+
+print(text)
+print(text_found)

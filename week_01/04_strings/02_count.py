@@ -14,3 +14,8 @@ counts the number of a’s in 'banana' that uses the in-built 'count'.
 
 
 '''
+
+text = "banana"
+
+count = text.count("a")
+print(count)

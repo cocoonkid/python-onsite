@@ -19,117 +19,239 @@ Ok that's all, now let's get to practicing!! :)
 
 - Using the command line, how do you:
     - change directories?
+cd
     - list the contents of a folder?
-    - print the path of the current directory?
-    - move a file from one location to the another?
-    - copy a file from one location to another?
-    - create a file?
-    - create a folder?
-    - delete a file?
-    - delete a folder?
-    - delete a folder that contains a file?
-    - print the contents of a file?
+ls  
+  - print the path of the current directory?
+pwd  
+  - move a file from one location to the another?
+mv    
+ - copy a file from one location to another?
+cp   
+ - create a file?
+touch 
+  - create a folder?
+mkdir     
+- delete a file?
+rm    
+ - delete a folder?
+rm -rf    
+- delete a folder that contains a file?
+rm -rf     
+- print the contents of a file?
+cat
     - edit the contents of a file?
+vi or nano
 
 - Answer the following question about Git and Github:
     - What is a branch?
+A branch is a seperate workspace to work on before merging it with the master.
     - What is a remote?
+A remote is a REMOTELY sitting repository.
 
 - What are the commands to do the following?
     - initialize a git repository
+git init 
     - clone a repository from Github
+git clone
     - add a file to the staging area
+git add 
     - make a commit
+git commit 
     - push to Github
+git push
     - pull from Github
+git pull
     - see the names of the branches
+git branch I can see the branch names on my CLI directly.
     - see the names of the remotes
+git remote -v
     - add a new remote
+git remote add 
 
 - Describe a variable and a value through their relationship.
+ x = 10
+10 is the value and x is the variable.
 
 - What are five common data types in Python?
 
+str,int,list,tuple,dictionary
+
 - What is the difference between an expression and a statement?
+
+Dunno :)
 
 - What are relational operators?
 
+The define the relation between objects : >=, == , <=
+
 - What is the difference between == and = ?
 
+== : Equality Operator
+= : Assignment Operator
+
 - Demonstrate the use of an if/elif/else conditional.
+if x > 10:
+	print(x)
+elif x < 10:
+	print("no")
+else:
+	print("yes")
 
 - What does mean to have a function that "takes" an argument?
 
+It means that I can or must provide something for the function to do something with it.
+
 - What is a return value?
+
+The value a function returns.
 
 - How do you import a class to one of your programs?
 
+import x
+from y import x
+import x as y
+
 - Do parameters and variables inside of a function exist outside of it?
 Why or why not?
+No, They only exist in that functions scope. I must do something explicitely to use them somewhere else but In don't know what.
 
 - What is the difference between a "fruitful" function and a void function?
+Dunno :)  I think fruitful return a value and a void function returns nothing.
+
 
 - What does a void function always return in Python?
+NONE
 
 - What are some of the reasons we separate our code into functions?
-
+DRY
 - What is the difference between the following two statements?
     import math
+imports directly
     <and>
     from math import *
+imports a subset of something external
     <and>
     import math as m
+imports directly and assigns a variable
 
     How can you use the functions of the math module in each case?
 
+.math
+.math.*
+.m
+
 - What is an index?
+0,1,2,3,4,5 etc.
+
+Starting from 0 a Index defines the location of objects in a list or tuple or string.
 
 - How do you use slicing to produce the string "coding" from the string
 "I love coding!!!"?
 
+x = "I love coding!!!"
+y = x[7:13]
+print(y)]
+
 - How do you invoke the replace() method on the string
 'coding is the best' to replace all 's' characters with 'z' characters?
 
+x = 'coding is the best'
+x.replace("s","z")
+
 - What is the most important difference between a list and a string?
+A list is mutable.
 
 - How do you use a delimiter other than a whitespace with the split() method?
+x.split(",")
 
 - If two objects are identical, does that also make them equivalent?
 Why or why not? How can you prove it in code?
 
+Yes.
+
+IDENTICAL = MEMORY
+EQUIVALENCY = MEANING
+
+x == y
+
+
 - What is it called when an object has more than one reference to it?
+
+aliasing
 
 - How do you add an item to the dictionary first_dict using square
     brackets?
 
+first_dict["hello"]
+
+Adds a key called hello
+
 - Write an example for-loop to traverse a dictionary loop_dict and
     print out the keys and values.
 
+for key,value in loop_dict.items():
+	print(key)
+	print(value)
+	
+
 - What are the three primary tenants of Object Oriented Programming (OOP)?
+
+Encapsulation
+Inheritance
+Polymorphism
+
 
 - Why is OOP useful?
 
+The data ( attributes and funtionality) are packed with the objects and useful for resembling real life situations.
+
 - What is a class?
+
+A Class is a defined blueprint with pre-defined Attributes and Methods.
 
 - What are class attributes?
 
+Specific properties of a Class.
+
 - What does it mean when an object is embedded?
+
+An object is part of another object.
 
 - How is a method different than a function?
 
+a method gets called on a object via .
+a function has an object as an (argument).
+
 - What is the `__init__` method and what is it used for?
+
+You Initialize a instance of a class on itself.
+-> Check qith Robert later.
 
 - Give an example `__init__` method for a `Car` class with attributes:
 `make`, `model` and `year`.
 
+def class
+
 - How does a class inherit from another class?
+
+class pug(dog):
+
 
 - Explain the difference between a class attribute and an instance attribute.
 
+A Class Attribute is valid for all instances of a class and a instance attribute only for that specific instance.
+
 - How do you open a file in write mode? Write some example code below.
+
+with open("file","w") as fout:
+fout.chapter10.
 
 - Can you have a 'try' without an 'except'? Can you have an 'except' without
 a 'try'? Bonus: How does 'else' fit into this picture?
+
+
+
 
 - Why is the following code bad form?
 
@@ -140,15 +262,17 @@ a 'try'? Bonus: How does 'else' fit into this picture?
     except ZeroDivisionError as zde:
         print zde
 
+dunno
 - Write a function that takes in the name of a file, reads the contents
 of that file word by word and places each word in a list, then prints
 the list to the console.
+dunno
 
 - Create a custom exception below.
-
+dunno
 - Write a very simple function that demonstrates raising the exception from the
 previous question.
-
+dunni
 - Explain the following keywords:
     -try
     -except
@@ -161,15 +285,26 @@ previous question.
 
 - When should you throw an exception rather than catch the exception?
 
+For easier debugging. When it's crucial for execution of the program.
+
 - Demonstrate a while loop, and a for loop, that print out every other
 odd number between 1000 and 0 in a descending order:
 
+for number in range(1000, 2).reverse():
+	print(number)
+
+
 - How comfortable do you feel answering the questions above?
+
+Pretty good but still playing catch up.
 
 - How do you create and activate a virtual environment?
 
+pipenv :)
+
 - What is the variable __name__ used for?
 
+Dunno :)
 - Write code that prints out all items passed to a function.
 The amount of items should be able to be different for every function call.
 

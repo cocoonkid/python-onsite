@@ -35,3 +35,8 @@ def is_palindrome(word):
     return is_palindrome(middle(word))
 
 '''
+
+
+
+
+
