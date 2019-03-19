@@ -30,7 +30,111 @@ offended, find and decode some of them.
 
 '''
 
+# cheer” rotated by 7 is “jolly” and “melon” rotated by -10 is “cubed”.
 
-def rotate_word(a,b):
 
+# Generating list to hold lower alphabet
+alphabet_lower_list = []
+
+# Populating lower alphabet list
+alphabet_lower = "a"
+for i in range(0, 26):
+    alphabet_lower_list.append(alphabet_lower)
+    alphabet_lower = chr(ord(alphabet_lower) + 1)
+
+
+# Generating list to hold upper alphabet
+alphabet_upper_list = []
+
+# Populating upper alphabet list
+alphabet_upper = "A"
+for i in range(0, 26):
+    alphabet_upper_list.append(alphabet_upper)
+    alphabet_upper = chr(ord(alphabet_upper) + 1)
+
+# Generating list to hold result and lists of alphabet indices per character
+rotated_list = []
+alphabet__lower_list_indices = []
+alphabet_upper_list_indices = []
+
+
+# Populate lower alphabet indices list
+for element in alphabet_lower_list:
+    alphabet__lower_list_indices.append(str(alphabet_lower_list.index(element)))
+
+
+# Populate upper alphabet indices list
+for element in alphabet_upper_list:
+    alphabet_upper_list_indices.append(str(alphabet_upper_list.index(element)))
+
+
+
+
+
+
+# Defining the function for character rotation
+def rotate_word(a, b):
+    for letter in a:
+        # Nesting code into upper or lower alphabets
+        if letter == letter.lower():
+            position = alphabet_lower_list.index(letter)
+            # Nesting code to handle cases outside of indices(0-25) range
+            if position + b > 25:
+                position = 24 - (position - b)
+                rotated_list.append(alphabet_lower_list[position])
+                reverse = ord(letter) + b
+                rotated_list.append(chr(reverse))
+
+            elif position + b < 0:
+                position = 25 - (position - b)
+                rotated_list.append(alphabet_lower_list[position])
+                reverse = ord(letter) + b
+                rotated_list.append(chr(reverse))
+
+
+            else:
+                reverse = ord(letter) + b
+                rotated_list.append(chr(reverse))
+
+
+
+        elif letter == letter.upper():
+            position = alphabet_upper_list.index(letter)
+
+            if position + b > 25:
+                position = 24 - (position - b)
+                rotated_list.append(alphabet_upper_list[position])
+                reverse = ord(letter) + b
+                rotated_list.append(chr(reverse))
+
+
+            elif position + b < 0:
+                position = 26 - (position - b)
+                rotated_list.append(alphabet_upper_list[position])
+                reverse = ord(letter) + b
+                rotated_list.append(chr(reverse))
+
+            else:
+                reverse = ord(letter) + b
+                rotated_list.append(chr(reverse))
+
+
+
+
+
+
+
+
+
+rotate_word("melon",-10)
+
+for i in rotated_list:
+     print(i, end = " " )
+
+
+
+# If (position + b) > index25 change position to index25 -  (b non-negative -position)
+#
+#
+# elif (position + b) < index0 change position to index25 -  (b non-negative -position)
 

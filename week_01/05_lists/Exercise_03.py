@@ -5,16 +5,14 @@ Sum up all elements from the nested list of integers below.
 
 list_ = [1, 2, [10, 11], [42, 3], 9]
 
-result = 0
-
 flat_list = []
 
-
 for element in list_:
-    if element == int:
-        pass
+    if (type(element)) is (int):
+        flat_list.append(element)
     else:
-        for x in element:
-            flat_list.append(x)
+        for sub_element in element:
+            flat_list.append(sub_element)
+
 
 print(flat_list)
