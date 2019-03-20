@@ -1,6 +1,5 @@
 Using pgadmin:
 
-- Create a new database named car_dealership
 - create a new blank database with the name "car_dealership"
 
 - create a new table named "users_cars" with the following fields:
