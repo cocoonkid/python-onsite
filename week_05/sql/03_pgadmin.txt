@@ -1,0 +1,45 @@
+Using pgadmin:
+
+- Create a new database named car_dealership
+- create a new blank database with the name "car_dealership"
+
+- create a new table named "users_cars" with the following fields:
+    - id (auto increment)
+    - userID (refers to "id" in users table)
+    - carID (refers to "id" in cars table)
+
+
+- create a new table named "users" with the following fields
+    - id (auto increment)
+    - first name
+    - last name
+
+- create a new table named "cars" with the following fields
+    - id (auto increment)
+    - make
+    - model
+    - color
+    - year
+
+- populate these tables with at least 5 records each - the more the merrier
+
+- Write the SQL queries to accomplish the following: (write each of your queries below for review)
+
+    - select all records from users
+
+
+    - select all records from cars where car make = "Toyota"
+
+
+    - use a join to select the first name and car model of every user who has bought a car
+
+
+    - use a join to select the first and last name of everyone who has bought a red car
+
+
+    - use an insert statement to create a new record in each table
+
+
+    - use sql to update a record in the "cars" table
+
+    - delete one record from the database
