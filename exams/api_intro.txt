@@ -1,0 +1,17 @@
+INTRO TO APIS
+=============
+
+What's the difference between going to a website URL and going to an API URL?
+
+What are the 4 most common HTTP methods?
+
+Describe the difference between PUT and POST
+
+Map common database actions (Create, Read, Update, Delete) to HTTP methods
+
+What do you need to ** read ** in order to know how to use an API?
+
+Explain what's going on in the following URL:
+http://numbersapi.com/12345?type=trivia&notfound=floor&json
+
+What type of request does a browser perform when you enter a URL in the search bar?

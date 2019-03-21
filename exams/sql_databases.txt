@@ -1,0 +1,19 @@
+RELATIONAL DATABASES & SQL
+==========================
+
+What is a relational database?
+
+What is the SQL query to get all records from a table called 'names'?
+
+What is the SQL query to create an inner join on two tables?
+
+Explain the pieces of the query, and why we need to set it up like that?
+
+What are double quotes used for in Postgres?
+
+What are single quotes used for in Postgres?
+
+How do you list all databases in psql?
+
+After starting psql, what two steps do you need to do to see all table
+names of a database called 'dvdrentals'?

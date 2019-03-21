@@ -1,0 +1,21 @@
+REVISIT
+=======
+
+Does an API only allow you to GET data, or can you also POST?
+
+What's the point of an API key (also called "token")?
+
+What do you need to do before being able to interact with our
+slack channel programmatically?
+* steps before coding (gather 2 pieces of information)
+* on the command line
+* inside your code (3 high-level steps)
+
+What are two ways to avoid leaking your secrets to GitHub
+while still keeping the code functional on your computer
+and (mostly) under version control?
+1)
+2)
+
+Describe the steps necessary for making one of them work
+

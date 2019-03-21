@@ -3,42 +3,27 @@ THE WEB & WEB SCRAPING
 
 When you inspect the source of a website, what 3 different types of code
 can you expect to find?
-    1)
-    2)
-    3)
 
-
-Which of these languages are PROGRAMMING languages?
-
+Which of these above languages are PROGRAMMING languages?
 
 What are the tags that these languages are wrapped in?
-    1)
-    2)
-    3)
-
 
 Which HTML element holds information about the "viewport" that helps
 with mobile responsive design?
 
-
 - - -
-
 
 Explain what is:
     * web scraping
     * web crawling
     * parsing
 
-
 When do we need a Session() object while we scrape a site?
 
-
 What do we send when passing a url to .get() - and what do we receive back?
-
 
 Which 2 different types of HTTP methods have we encountered so far?
 What are they each used for?
 
-
-What allows us to parse the content of a dynamically generated website when using
-requests_html?
+What allows us to parse the content of a dynamically generated website when
+using requests_html?
