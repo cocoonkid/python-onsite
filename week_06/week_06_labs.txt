@@ -1,0 +1,19 @@
+PYTHON CRASHCOURSE BOOK - WEB DEVELOPMENT (PROJECT 3)
+=====================================================
+
+Your task throughout this week, is to follow along the
+lectures with the exercises in our book.
+
+The relevant chapters are Chapter 18 through 20.
+
+Additionally to training to work with Django through
+completing the walkthrough of the learning logs project
+as well as the additional tasks mentioned in the book's
+exercises, you should train to make useful Git commits.
+
+Therefore, your week 6 tasks are:
+---------------------------------
+* Build the learning logs project from chapters 18-20
+* Complete the additional exercises mentioned there
+* Commit logical chunks of your code with useful
+  commit messages (google this!)

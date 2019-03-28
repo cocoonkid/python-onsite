@@ -1,0 +1,18 @@
+project 'labs' through commits
+==============================
+
+- commit #1: README.md with project specs for learning log Django app
+- commit #2: setting up the Django project
+	- Django SECRET_KEY in separate secrets.py file
+	- .gitignore the right files and folders (also the Database file!)
+	- create a requirements.txt file
+- commit #3: creating an app called 'logs'
+- commit #4: add the database models for our app
+
+
+by the end of the day you should:
+=================================
+1) be able to add topics and entries through your admin panel
+2) have revisited your progress-log (or other notes) and
+3) added at least 10 topics with at least 2 entries each
+

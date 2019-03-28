@@ -1,0 +1,36 @@
+DJANGO MODELS AND GENERAL WEB FRAMEWORK ARCHITECTURE
+====================================================
+
+Why do we want to use a web framework?
+
+Explain the general concepts of MVC
+
+How do these concepts map to different parts of Django?
+
+Explain the necessary steps to create a basic Django project
+
+What is the difference between a Django project and a Django app?
+
+What advantages does the app-centric structure in Django have?
+
+Which file do we add database models in?
+
+Define a Django model for a blog post that contains 4 fields:
+title, text, author, date_added
+
+How can you make the output in Django admin easily readable?
+
+What 2 commands do you need to run (and in which sequence) to
+make changes to the database?
+
+What does each of the 2 above mentioned commands do?
+
+What's the difference between Django's default SQLite db and
+Postgres?
+
+After defining a model, and applying the changes to the database,
+what is the final step before you can interact with your db through
+Django's admin interface?
+
+Can you add entries to your db through Django admin? Can you edit?
+Delete?

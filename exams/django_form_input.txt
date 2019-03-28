@@ -1,0 +1,23 @@
+DJANGO FORM INPUT
+=================
+
+1) What HTML element do we need to collect user input?
+
+2) Where can we define what HTTP method the user input will be sent with?
+
+3) How can we check which HTTP request brought us to a function in views.py?
+
+4) What class do we inherit from when we want to create a Form class from an
+existing model?
+
+-
+
+5) Explain the namespace for apps and URL paths and why this whole thing is important
+
+6) Why do we want to use a HttpResponseRedirect() after submitting a form?
+
+7) On a high-level, what is reverse() about?
+
+8) Which file to look into if you get a NoReverseMatch error?
+
+9) How can we display a form inside of our template?

@@ -1,0 +1,17 @@
+SQLALCHEMY
+==========
+
+What is an ORM and why is it useful?
+
+When using SQLAlchemy, what part of the code do you need to change
+when switching to a different database backend?
+
+Translate the following SQL statement to SQLAlchemy:
+SELECT * FROM actors
+
+How can you select only specific columns of a table with SQLAlchemy?
+
+How can you create a SQL table using SQLAlchemy?
+
+Which 2 attributes can you set on a column to make it be an
+auto-incrementing primary key column?
