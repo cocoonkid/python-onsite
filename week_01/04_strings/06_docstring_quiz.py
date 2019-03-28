@@ -9,9 +9,8 @@ actually does (assuming that the parameter is a string).
 '''
 
 def any_lowercase1(s):
-    '''
-    The function iterates
-    '''
+    '''The function returns either True or False for each item in the list that is being iterated through.
+    But it is returning False even when there is just one existing uppercase letter'''
     for c in s:
         if c.islower():
             return True
@@ -19,29 +18,39 @@ def any_lowercase1(s):
             return False
 
 
-print(any_lowercase1("Te"))
+def any_lowercase2(s):
+    '''The function always returns True since the string 'c' always returns True when calling  islower() '''
+    for c in s:
+        if 'c'.islower():
+            return 'True'
+        else:
+            return 'False'
 
-#
-# def any_lowercase2(s):
-#     for c in s:
-#         if 'c'.islower():
-#             return 'True'
-#         else:
-#             return 'False'
-#
-# def any_lowercase3(s):
-#     for c in s:
-#         flag = c.islower()
-#     return flag
-#
-# def any_lowercase4(s):
-#     flag = False
-#     for c in s:
-#         flag = flag or c.islower()
-#     return flag
-#
-# def any_lowercase5(s):
-#     for c in s:
-#         if not c.islower():
-#             return False
-#     return True
+
+
+def any_lowercase3(s):
+    ''' The function returns True whenever there is a existing lowercase character in a given string.'''
+    for c in s:
+        flag = c.islower()
+    return flag
+
+
+
+
+def any_lowercase4(s):
+    ''' The function returns True whenever a lowercase character exists in a given string.
+     The Function works but is a very convoluted way of achieving this.'''
+    flag = False
+    for c in s:
+        flag = flag or c.islower()
+    return flag
+
+def any_lowercase5(s):
+    '''The function returns either True or False for each item in the list that is being iterated through.
+     But it is returning False even when there is just one existing lowercase letter'''
+    for c in s:
+        if not c.islower():
+            return False
+    return True
+
+

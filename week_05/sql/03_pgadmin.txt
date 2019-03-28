@@ -24,21 +24,48 @@ Using pgadmin:
 
 - Write the SQL queries to accomplish the following: (write each of your queries below for review)
 
-    - select all records from users
+   
+ - select all records from users
+
+     SELECT * FROM users
+   
+ - select all records from cars where car make = "Toyota"
+
+     SELECT * FROM cars WHERE make = 'Toyota'
+    
+
+- use a join to select the first name and car model of every user who has bought a car
 
 
-    - select all records from cars where car make = "Toyota"
-
-
-    - use a join to select the first name and car model of every user who has bought a car
-
-
+SELECT first_name, cars.model
+FROM users
+JOIN users_cars
+ON users_cars.user_id = users.id
+JOIN cars
+ON users_cars.car_id = cars.id
+     
     - use a join to select the first and last name of everyone who has bought a red car
 
+SELECT *
+FROM users
+JOIN users_cars
+ON users_cars.user_id = users.id
+JOIN cars
+ON users_cars.car_id = cars.id
+WHERE cars.color = 'Red'
 
-    - use an insert statement to create a new record in each table
+   
+ - use an insert statement to create a new record in each table
 
+INSERT INTO users (first_name, last_name) VALUES ('Joe', 'Cool') RETURNING id;
+INSERT INTO cars (make, model, color, year) VALUES ('BMW', 'X5' , 'Blue', 2018) RETURNING id;
+INSERT INTO users_cars (user_id, car_id) VALUES (6,6) RETURNING id;
 
-    - use sql to update a record in the "cars" table
+   
+ - use sql to update a record in the "cars" table
 
-    - delete one record from the database
+   UPDATE cars SET model = 'Caravan' WHERE cars.id=2 RETURNING model;
+
+ - delete one record from the database
+
+DELETE FROM cars where id = 5 RETURNING *

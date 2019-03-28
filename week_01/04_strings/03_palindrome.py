@@ -1,5 +1,5 @@
 '''
-A string slice can take a third index that specifies the “step size”;
+A string slice can take a third parameter that specifies the “step size”;
 that is, the number of spaces between successive characters.
 A step size of 2 means every other character; 3 means every third, etc.
 
@@ -37,7 +37,13 @@ def is_palindrome(word):
 '''
 
 
-
+def is_palindrome(word):
+    """Returns True if word is a palindrome."""
+    if len(word) <= 1:
+        return True
+    if first(word) != last(word):
+        return False
+    return is_palindrome(middle(word))
 
 
 
