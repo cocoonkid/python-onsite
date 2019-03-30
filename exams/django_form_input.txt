@@ -7,8 +7,7 @@ DJANGO FORM INPUT
 
 3) How can we check which HTTP request brought us to a function in views.py?
 
-4) What class do we inherit from when we want to create a Form class from an
-existing model?
+4) What class do we inherit from when we want to create a Form class from an existing model?
 
 -
 

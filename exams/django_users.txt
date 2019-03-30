@@ -1,0 +1,36 @@
+DJANGO USER AUTHENTICATION
+==========================
+
+1) What is the difference between authentication and login?
+
+2) Why do we need a POST request for user auth?
+
+3) What's the advantage for using Django for authentication?
+
+4) How did we write the authentication for for users
+
+-
+
+EXTRA TWIST: YOUR QUESTIONS
+===========================
+
+5) Arno: How do you make sure you pass a variable (e.g. topic_id) to
+	be taken into the next function?
+
+6) Melissa: What is the difference between reverse() and HttpResponseRedirect?
+
+8) Ming: In HTML file what do we need to do for improving security?
+
+10) Daniel: How does authentication work?
+
+11) Michael: What are the form fields and how do they come into existence?
+
+12) Blake: What would be the first place to look when Django returns 
+		an error?
+
+
+
+
+
+
+
