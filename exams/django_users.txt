@@ -7,7 +7,7 @@ DJANGO USER AUTHENTICATION
 
 3) What's the advantage for using Django for authentication?
 
-4) How did we write the authentication for for users
+# 4) How did we write the authentication for users
 
 -
 

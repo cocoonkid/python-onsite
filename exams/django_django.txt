@@ -1,0 +1,28 @@
+GENERAL DJANGO
+==============
+
+1) How do HTML forms work? What's their syntax, what are they used for?
+
+2) What is CSS and what is it used for?
+
+3) What is a "project" in Django, what are "apps"?
+
+4) What does registering an app in `INSTALLED_APPS` achieve?
+
+5) What is the suggested folder structure for templates? And why is it like that?
+
+6) What is `reverse()` about in Django?
+
+7) How does Django process a HTTP request? What happens inside of `urls.py` and what do `path()` and `include()` do respectively?
+
+8) Explain a few of the most common tags in the Django templating language.
+
+9) What happens behind the scenes of the Django ORM?
+
+10) What is `blank=True, null=True` that you might see in a couple of models?
+
+11) How do you get a recently saved instance of an object? What does `.save()` return?
+
+12) What happens when you run `python manage.py makemigrations`?
+
+13) What happens when you run `python manage.py migrate`?
