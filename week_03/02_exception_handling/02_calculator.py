@@ -8,3 +8,12 @@ the script should handle:
 Test it and make sure it does not crash when you enter incorrect values.
 
 '''
+
+
+num_1 = input("Please enter numbers one:\n")
+num_2 = input("Please enter numbers two:\n")
+
+
+try:
+quotient = num_1 / num_2    
+
