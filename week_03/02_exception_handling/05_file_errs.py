@@ -6,3 +6,19 @@ with specific except statements, and continue to do the calculation
 only if neither of them applies.
 
 '''
+
+
+fin = open("integers.txt")
+
+
+try:
+    for i in fin:
+        i = i.rstrip("\n")
+        i = int(i)
+        x = i * 10
+        print(x)
+except IOError:
+    print("There is a problem with the file.")
+except ValueError:
+    print("The input data is not of consistent type.")
+

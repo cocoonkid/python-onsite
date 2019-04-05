@@ -11,3 +11,8 @@ In your CodingNomads folder create a new folder. Inside of that folder:
 
 
 '''
+
+
+Is all done via pyenv,piper,pipenv and autoswitchtoenvonfolder.
+
+

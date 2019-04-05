@@ -10,10 +10,35 @@ Test it and make sure it does not crash when you enter incorrect values.
 '''
 
 
-num_1 = input("Please enter numbers one:\n")
-num_2 = input("Please enter numbers two:\n")
 
+
+
+num_1 = input("Please enter number one:\n")
+num_2 = input("Please enter number two:\n")
 
 try:
-quotient = num_1 / num_2    
+    quotient = int(num_1) / int(num_2)
+    print(quotient)
+except ZeroDivisionError as error:
+    print(error)
+    print("The numbers zero is no allowed.\n")
+except ValueError as error:
+    print(error)
+    print("You cannot divide string by integers or vice versa\n")
 
+
+
+
+
+
+
+
+
+# try:
+#     if ((int(num_1)) or (int(num_2))) == 0:
+# except:
+#     print("The number zero is not allowed")
+# try:
+#     if (num_1 or num_2) == type(str):
+# except:
+#     print("A string is not allowed")
